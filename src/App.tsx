@@ -1,12 +1,12 @@
 
-import Second from './component/Second.jsx'
-import Third from './component/Third.jsx'
-import First from './component/First.jsx'
-import Fourth from './component/Fourth.jsx'
-import Fifth from './component/Fifth.jsx'
-import Six from './component/Six.jsx'
-import Seven from './component/Seven.jsx'
-import Eight from './component/Eight.jsx'
+import Second from './component/Second'
+import Third from './component/Third'
+import First from './component/First'
+import Fourth from './component/Fourth'
+import Fifth from './component/Fifth'
+import Six from './component/Six'
+import Seven from './component/Seven'
+import Eight from './component/Eight'
 
 
 const App = () => {

@@ -1,11 +1,11 @@
 const liquidations = [
-  { price: "$68,200", label: "SHORTS 5 - 10X",  type: "short" as const, pct: 88, amount: "$421M" },
-  { price: "$68,800", label: "SHORTS 10 - 20X", type: "short" as const, pct: 72, amount: "$421M" },
-  { price: "$65,400", label: "SHORTS 25 - 50X", type: "short" as const, pct: 55, amount: "$421M" },
-  { price: "$63,100", label: "LONGS 10 - 25X",  type: "long"  as const, pct: 42, amount: "$421M" },
-  { price: "$61,500", label: "LONGS 10 - 25X",  type: "long"  as const, pct: 60, amount: "$421M" },
-  { price: "$60,200", label: "SHORTS 5 - 10X",  type: "short" as const, pct: 30, amount: "$421M" },
-  { price: "$59,800", label: "LONGS < 5X",       type: "long"  as const, pct: 22, amount: "$421M" },
+  { price: "$68,200", label: "SHORTS 5 - 10X",  type: "short", pct: 88, amount: "$421M" },
+  { price: "$68,800", label: "SHORTS 10 - 20X", type: "short", pct: 72, amount: "$421M" },
+  { price: "$65,400", label: "SHORTS 25 - 50X", type: "short", pct: 55, amount: "$421M" },
+  { price: "$63,100", label: "LONGS 10 - 25X",  type: "long",  pct: 42, amount: "$421M" },
+  { price: "$61,500", label: "LONGS 10 - 25X",  type: "long",  pct: 60, amount: "$421M" },
+  { price: "$60,200", label: "SHORTS 5 - 10X",  type: "short", pct: 30, amount: "$421M" },
+  { price: "$59,800", label: "LONGS < 5X",       type: "long",  pct: 22, amount: "$421M" },
 ];
 
 export default function CryptoLiquidationZone() {
